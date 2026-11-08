@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="StayLuna Daily Ops의 처리 정보, Google 앱 전용 저장 공간, 보관 및 연결 해제에 관한 개인정보처리방침입니다.">
+  <title>개인정보처리방침 | StayLuna Daily Ops</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="StayLuna Daily Ops 홈"><span class="brand-mark" aria-hidden="true">◒</span><span>STAY LUNA<small>Daily Ops</small></span></a><nav aria-label="주 메뉴"><a href="index.html">앱 소개</a><a href="privacy.html" aria-current="page">개인정보처리방침</a></nav></header>
+  <main id="main" class="wrap policy">
+    <header class="policy-header"><p class="eyebrow">StayLuna Daily Ops · 스테이루나 운영 앱</p><h1>개인정보처리방침</h1><p class="lead">스테이루나 운영자는 숙소 운영에 필요한 범위에서 정보를 처리합니다. 이 방침은 Windows·Android 앱 및 이 공개 안내 페이지에 적용됩니다.</p><p class="subtle">최종 업데이트: 2026년 11월 8일 (한국 표준시)</p></header>
+    <div class="summary"><strong>핵심 안내</strong><p>앱은 운영자 개인용입니다. 동기화 스냅샷에는 예약자 이름·전화번호·메시지 본문을 넣지 않으며, Google Drive의 앱 전용 저장 공간을 사용합니다. 예약 제공사의 웹페이지에 표시되는 정보와 로그인 세션은 별도로 처리됩니다.</p></div>
+    <section><h2>1. 운영자와 이용 목적</h2><p>앱 운영자는 스테이루나 운영자입니다. 앱은 네이버·Airbnb에 표시된 예약 운영 정보를 확인하고, 등록된 출처·객실·조회 범위의 현황을 대조하며, 운영자의 Windows와 Android 기기 사이에서 예약 현황을 이어 보기 위해 사용됩니다.</p><p>별도의 운영자 서버를 두지 않으며, 앱이 처리하는 정보를 판매하거나 광고 프로필을 만드는 데 사용하지 않습니다.</p></section>
+    <section><h2>2. 처리하는 정보</h2><h3>동기화 스냅샷</h3><ul><li>예약 식별자, 예약 채널, 객실, 체크인·체크아웃 날짜</li><li>확인된 경우의 투숙 인원 수와 예약 상태. 미확인 인원 수는 미확인 값으로 유지합니다.</li><li>출처별 수집·확인 시각과 계정·출처의 일치 및 무결성을 확인하기 위한 메타데이터</li></ul><p>예약 식별자는 예약을 구별하는 불투명 식별값입니다. 동기화 스냅샷에는 예약자 이름, 전화번호, 메시지 본문을 포함하지 않습니다.</p><h3>계정 연결과 제공사 페이지</h3><p>Google의 불투명 계정 식별자는 같은 Google 계정인지 확인하는 데 사용합니다. Google 인증 정보는 예약 페이지의 JavaScript에 전달하지 않습니다.</p><p>앱의 웹뷰는 예약 제공사의 페이지를 표시합니다. 해당 페이지에는 예약자 개인정보가 표시될 수 있으며, 제공사와 웹뷰·브라우저는 로그인 세션, 쿠키와 캐시 등을 별도로 보관할 수 있습니다. 따라서 동기화 스냅샷의 제한이 앱에서 표시되는 모든 정보의 제한을 뜻하지는 않습니다.</p></section>
+    <section><h2>3. Google 권한과 데이터 이용</h2><p>Google 연결에 사용하는 Drive 권한은 <code>https://www.googleapis.com/auth/drive.appdata</code>입니다. 이 권한은 이 앱의 전용 저장 공간을 읽고 쓰는 데 한정되며 일반 Drive 파일, Gmail, 연락처에 대한 접근 권한을 제공하지 않습니다.</p><p>앱은 현재 예약 스냅샷과 백업을 앱 전용 저장 공간에 저장하여 동일한 Google 계정으로 연결한 Android 기기에서 사용할 수 있도록 구성됩니다. 연결과 재승인 여부에 따라 실제 동작이 달라질 수 있습니다.</p><p>Google API에서 받은 정보의 사용 및 다른 앱으로의 전송은 Limited Use 요구사항을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>를 준수합니다. 이 정보는 안내된 개인용 앱 동기화와 계정 일치 확인 목적으로 사용합니다.</p></section>
+    <section><h2>4. 저장 위치와 보호 조치</h2><p>정보는 운영자의 Windows 기기, Android 앱의 전용 캐시 및 같은 Google 계정의 Drive 앱 전용 저장 공간에 보관됩니다. 별도의 운영자 백엔드로 전송하는 구조가 아닙니다.</p><p>Windows의 Google 인증 정보와 보호된 전송 기록에는 운영체제의 DPAPI 보호 방식을 사용합니다. 실행·진단 메타데이터 일부는 일반 JSON 파일로 저장됩니다. Android 인증은 공식 Google Play services를 사용하며, 앱 전용 캐시는 기기 백업 대상에서 제외하도록 구성됩니다.</p><p>이러한 조치는 모든 데이터의 암호화나 종단 간 암호화를 보장한다는 뜻은 아닙니다. 예약 제공사의 페이지와 로그인 세션은 해당 제공사 및 브라우저의 처리 방식도 적용받습니다.</p></section>
+    <section><h2>5. 보관, 연결 해제와 삭제 문의</h2><p>새 자료가 검증되어 반영되면 현재 스냅샷은 새 세대로 교체됩니다. 복구용 백업과 일부 로컬 이력은 별도로 남을 수 있으며, 운영자가 정리하도록 승인할 때까지 보관될 수 있습니다. 24시간 후 자동 삭제되는 방식은 아닙니다.</p><p><a href="https://myaccount.google.com/connections">Google 계정의 연결 관리</a>에서 앱의 접근 권한을 철회하면 이후 승인된 Google 요청을 중단할 수 있습니다. 다만 권한 철회만으로 기존 로컬 데이터나 Drive 사본이 반드시 삭제되는 것은 아닙니다.</p><p>데이터 열람, 정정, 보관 및 삭제에 관한 요청은 아래 운영자 문의처로 연락해 주세요. 앱 삭제만으로 모든 사본이 정리된다고 가정하지 말고, 정리 대상과 위치를 먼저 확인해야 합니다.</p></section>
+    <section><h2>6. 외부 서비스와 공개 안내 페이지</h2><p>Google과 예약 제공사는 각자의 서비스 제공 및 정책에 따라 데이터를 처리합니다. Google의 처리 방식은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p><p>이 안내 페이지에는 분석 도구, 광고 추적, 입력 양식 또는 외부 스크립트를 사용하지 않습니다. 페이지 호스팅 제공자인 GitHub Pages는 접속 IP 등 서비스 운영·보안 정보를 자체 정책에 따라 처리할 수 있습니다. 자세한 내용은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 확인해 주세요.</p></section>
+    <section><h2>7. 문의와 방침 변경</h2><p>개인정보 처리 및 앱 관련 문의 담당: 스테이루나 운영자</p><p class="contact-email"><a href="mailto:leesejun99@gmail.com">leesejun99@gmail.com</a></p><p>정보 처리 방식이 변경되면 이 페이지의 내용을 수정하고 최종 업데이트 날짜를 갱신합니다.</p></section>
+  </main>
+  <footer class="site-footer wrap"><span>StayLuna Daily Ops · 스테이루나 운영 앱</span><a href="index.html">앱 소개</a><span>최종 업데이트 2026. 11. 08. (한국 표준시)</span></footer>
+</body>
+</html>
